@@ -63,7 +63,8 @@ h1 {
 }
 @media screen and (max-width: 1200px) {
   h1 {
-    transform: translate(-17%, 1100%);
+/*     transform: translate(-17%, 1100%); */
+        display: none;
   }
   .calculator {
     padding: 10px;

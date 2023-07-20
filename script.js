@@ -8,7 +8,7 @@ Array.from(buttons).forEach((button) => {
     } else if (e.target.innerHTML == "AC") {
       string = "";
       document.querySelector("input").value = string;
-    }else if (e.target.innerHTML == "DEL") {
+    }else if (e.target.innerHTML == "DE") {
       string = string.slice(0,-1);
       document.querySelector("input").value = string;
     } else {
